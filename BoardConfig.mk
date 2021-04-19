@@ -29,3 +29,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/polaris/BoardConfigVendor.mk
+BOARD_KERNEL_CMDLINE += console=tty0
